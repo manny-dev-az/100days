@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+    <div>
+        <h1>Daily<strong>8</strong></h1>
+    </div>
+</header>
+<div id="total-water-container">
+    <img src="water-gallon.svg" alt="Total Amount of Water Left to Drink"/>
+    <h1>Amount Left: <span id="cup-count">8</span> cups</h1>
+</div>
+<div id="amount-drank-container">
+    <label for="amount-drank">
+        How much did you drink? (use whole numbers)
+    </label>
+    <input id="amount-drank" type="text" onkeydown="calculateWaterDrank()">
+</div>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
